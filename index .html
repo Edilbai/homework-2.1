@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AJAX homework</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	</head>
+
+	<body>
+		<div class='main'>
+			<div class="page-wrapper">
+			<p>Введите свое имя пользователя на GitHub</p>
+			<form>
+				<input
+					class="input-name js-input"
+					type="text"
+					name="name"
+					placeholder="Введите свое имя GitHub"
+				/>
+				<button class="load-button js-load">Загрузить данные</button>
+			</form>
+
+			<div class="results-container js-results"></div>
+		</div>
+		<!-- //////////////////1.1 -->
+		<div class="second">
+			<p>Введите номер пользователя о котором вы хотите узнать</p>
+			<form>
+				<input
+					class="input-name js-input2"
+					type="text"
+					name="name"
+					placeholder="Введите номер пользователя"
+				/>
+				<button class="load-button js-load2">Загрузить данные</button>
+			</form>
+
+			<div class="results-container js-results2">
+				<!-- <h3>{data.id}</h3>
+				<p>Name: {data.name} </p>
+				<p>Username: {data:username}</p>
+				<p>Phone: {data.phone}</p>
+				<span>Address: city- {data.address.city}</span>
+				<span>Street- {data.address.city}</span>
+				<span>Suite- {data.address.suite}</span>
+				<span>Zipcode- {data.address.zipcode}</span> -->
+			</div>
+		</div>
+		</div>
+		</div>
+		
+	</body>
+
+	<script src="scripts.js"></script>
+</html>
